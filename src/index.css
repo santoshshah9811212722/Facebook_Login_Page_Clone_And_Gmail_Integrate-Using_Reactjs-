@@ -1,4 +1,25 @@
+
+*{
+   /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
 .parent{
   display: flex;
- background-color:#f2f4f7 ; 
+ flex-direction: column;
+ align-items: center;
+ gap: 25px;
+ margin-bottom: 55px;
+}
+.container{
+  display: flex;
+ /* padding-left: 210px; */
+  padding-top: 5px;
+  justify-content: center;
+  align-items: center;
+  height: 76vh;
+  padding-right: 55px;
+  background: #f2f4f7;
+  
+ 
 }

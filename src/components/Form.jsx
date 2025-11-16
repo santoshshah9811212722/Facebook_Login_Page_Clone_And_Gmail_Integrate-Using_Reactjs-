@@ -12,6 +12,7 @@ const Form = () => {
                <div className={style.horizontalline}></div>
                <button className={style.btn_create_new_account}>Create new account</button>
             </form>
+            <div ><a href="" className={style.create_btn}>Create a Page</a> for a celebrity, brand or business.</div>
       
     </div>
   )

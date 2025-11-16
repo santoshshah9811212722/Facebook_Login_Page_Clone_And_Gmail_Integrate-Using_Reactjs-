@@ -3,23 +3,25 @@
   padding: 15px;
   display: flex;
   flex-direction: column;
-align-content: center;
+  align-content: center;
   gap: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px #0000001a, 0 8px 16px #0000001a;
+
 }
 .input{
-font-size: 17px;
+  font-size: 17px;
   padding: 14px 16px;
   border: 1px solid #dddfe2;
   border-radius: 6px;
- color: #1d2129;
- /* margin: 0; */
+  color: #1d2129;
   background-color: #fff ;
   height: 22px;
-  width: 300px;
+  width: 332px;
 }
 .horizontalline{
-    border: 1px solid #DADDE1;
-    margin: 20px 16px;
+    border-bottom: 1px solid #DADDE1;
+    margin: 10px 16px;
     text-align: center;
     font-size: 12px;
 }
@@ -29,7 +31,7 @@ font-size: 17px;
     font-size: 20px;
     line-height: 48px;
     padding: 0 16px;
-    width: 332px;
+    width: 366px;
     color: #fff;
     border-radius: 6px;
     font-weight: 700;
@@ -59,8 +61,14 @@ font-size: 14px;
     border: none;
     border-radius: 6px;
     padding: 0 16px;
-    margin: 0 60px;
+    margin: 10px 85px;
     cursor: pointer;
     
 
+}
+
+.create_btn{
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
 }
