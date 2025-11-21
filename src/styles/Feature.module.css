@@ -1,0 +1,37 @@
+.featureContainer{
+   margin: 25px;
+}
+
+.sub_featurecontainer{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    list-style: none;
+    margin-left: 145px;
+}
+
+
+.firstlistcontainer{
+    display: flex;
+    gap: 20px;
+    /* flex-direction: row; */
+    
+}
+
+.secondlistcontainer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.thirdcontainer{
+    display: flex;
+    gap: 15px;
+}
+
+.metalogobuttom{
+    font-size: 14px;
+  color: #737373;
+    padding-top: 15px;
+    margin-left: 145px;
+}

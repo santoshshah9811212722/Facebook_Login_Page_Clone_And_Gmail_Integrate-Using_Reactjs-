@@ -1,0 +1,31 @@
+
+
+.footercontainer{
+display: flex;
+flex-direction: column;
+gap: 10px;
+padding-top: 25px;
+}
+
+.footeralign{
+    display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 20px;
+   list-style: none;
+    /* background-color: red; */
+}
+.plus{
+    background-color: rgb(6, 123, 226);
+   
+}
+.iconplus{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.div_underline{
+    border: 1px solid red;
+    
+}
